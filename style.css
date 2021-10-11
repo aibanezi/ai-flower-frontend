@@ -1,0 +1,28 @@
+.button {
+    padding:10px;
+    background-color: #FE8081;
+    border: 1px solid #666;
+    color:#000;
+    text-decoration:none;
+  }
+
+.button {
+    position:absolute;
+    right: 160px;
+    bottom: 50px;
+  }
+
+  button:after{
+    content: '';
+    display: block;
+ }
+ button:hover:after,
+ button:focus:after,
+ button:active:after{
+    content: 'SUCCESS!';
+    display: block;
+ }
+
+ /* https://stackoverflow.com/questions/34329582/swapping-text-in-button-on-onclick-with-plain-html-css 
+ 
+ this is where I found the code for adding "success" after clicking on "grow" */
